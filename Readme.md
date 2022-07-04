@@ -1,4 +1,4 @@
-# Partie I : CICD du site web statique
+# Partie I : CICD du site web statique 
 
 ## Prérequis
 - Docker
