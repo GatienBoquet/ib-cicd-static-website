@@ -110,7 +110,7 @@ pipeline {
       post {
     always {
       script {
-        discordSend description: 'From Jenkins Pipeline Build', footer: 'Footer Text', link: env.BUILD_URL, result: currentBuild.currentResult, unstable: false, title: JOB_NAME, webhookURL: 'https://discordapp.com/api/webhooks/993255292219441152/xnapWOk4CixSf8R8vfEhmoBHkazLl5zuDmhJX4rkg9qR9zrOfx1Urbv720HosyqetZ9B'
+        discordSend description: 'From Jenkins Pipeline Build', footer: 'Footer Text', image: 'https://fr.wikipedia.org/wiki/Airbus_A320#/media/Fichier:Airbus_A320-271N_NEO_D-AVVA.jpg', link: env.BUILD_URL, result: currentBuild.currentResult, unstable: false, title: JOB_NAME, webhookURL: 'https://discordapp.com/api/webhooks/993255292219441152/xnapWOk4CixSf8R8vfEhmoBHkazLl5zuDmhJX4rkg9qR9zrOfx1Urbv720HosyqetZ9B'
       }
     }  
   }
