@@ -93,7 +93,6 @@ pipeline {
                script {
                  sh '''
                      cd $WORKSPACE/ansible && ansible-playbook playbooks/deploy_app.yml  --private-key ../id_rsa -e env=prod
-                     discordSend description: 'test', footer: '', image: '', link: '', result: '', scmWebUrl: '', thumbnail: '', title: 'Test du webhook discord directement de jenkins', webhookURL: 'https://discordapp.com/api/webhooks/993255292219441152/xnapWOk4CixSf8R8vfEhmoBHkazLl5zuDmhJX4rkg9qR9zrOfx1Urbv720HosyqetZ9B'
                  '''
                }
           }
